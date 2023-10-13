@@ -1,0 +1,87 @@
+﻿<Window x:Class="wpf_layouts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_layouts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--<StackPanel Orientation="Vertical"  >
+        <Label>This is a Labl - for StackPanel</Label>
+        <TextBox>This is text Box</TextBox>
+        <CheckBox>Check Box1</CheckBox>
+        <CheckBox>Check Box2</CheckBox>
+
+        <ListBox>
+            <ListBoxItem>List Box 1 Item 1</ListBoxItem>
+            <ListBoxItem>List Box 1 Item 2</ListBoxItem>
+            <ListBoxItem>List Box 1 Item 3</ListBoxItem>
+        </ListBox>
+
+        <ListBox>
+            <ListBoxItem>List Box 2 Item 1</ListBoxItem>
+        </ListBox>
+    </StackPanel>-->
+    <!--<WrapPanel Orientation="Horizontal">
+        <Button Width="100">Button 1</Button>
+        <Button Width="100">Button 2</Button>
+        <Button Width="100">Button 3</Button>
+        <Button Width="100">Button 4</Button>
+        <Button Width="100">Button 5</Button>
+        <Button Width="100">Button 6</Button>
+        <Button Width="100">Button 7</Button>
+        <Button Width="100">Button 8</Button>
+        <Button Width="100">Button 9</Button>
+        <Button Width="100">Button 10</Button>
+    </WrapPanel>-->
+    <!--<Canvas Background="DarkCyan">
+        <Label Content="Enter here" Canvas.Top="30" Canvas.Left="30"/>
+        <TextBox Canvas.Top="30" Canvas.Left="120" Width="100" Text="" />
+        <Button Canvas.Top="70" Canvas.Left="120" Content="Click me!" Padding="5"/>
+    </Canvas>-->
+    <!--<DockPanel>
+        <Border Height="25" Background="AliceBlue" DockPanel.Dock="Top">
+            <TextBlock>Menu</TextBlock>
+        </Border>
+        <Border Height="25" Background="Aqua" DockPanel.Dock="Top">
+            <TextBlock>Ribbon</TextBlock>
+        </Border>
+        <Border Height="30" Background="LightSteelBlue" DockPanel.Dock="Bottom">
+            <TextBlock>Status</TextBlock>
+        </Border>
+        <Border Height="80" Background="Azure" DockPanel.Dock="Left">
+            <TextBlock>Left Side</TextBlock>
+        </Border>
+        <Border Background="HotPink" >
+            <TextBlock>Left Side</TextBlock>
+        </Border>
+    </DockPanel>-->
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Label Content="First Name" Grid.Row="0" Grid.Column="0" />
+        <Label Content="Last Name" Grid.Row="1" Grid.Column="0" />
+        <Label Content="Address" Grid.Row="2" Grid.Column="0" />
+
+        <TextBox Grid.Row="0" Grid.Column="1" Margin="5"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="5"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Margin="5" MinHeight="70"/>
+
+        <Button Grid.Column="1"  Grid.Row="3" HorizontalAlignment="Right" MinWidth="80" Margin="5" Content="submit"/>
+
+
+    </Grid>
+    
+</Window>
