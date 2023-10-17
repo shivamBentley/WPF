@@ -45,6 +45,8 @@ namespace WPF_MVVM_Implementation.Model
             }
         }
 
+        public DateTime DateAdded { get; set; } 
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         private void OnPropertyChanged(string p)

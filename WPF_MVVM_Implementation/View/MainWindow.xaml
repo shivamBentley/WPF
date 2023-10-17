@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_MVVM_Implementation"
         xmlns:vm="clr-namespace:WPF_MVVM_Implementation.ViewModel"
+        xmlns:converter="clr-namespace:WPF_MVVM_Implementation.Converter"
         Title="MainWindow" Height="450" Width="800">
 
     <Window.Resources>
         <vm:PersonViewModel x:Key="PersonViewModel"/>
-
+        <converter:DateConverter x:Key="MyConverter" />
     </Window.Resources>
     <Grid DataContext="{Binding Source={StaticResource PersonViewModel}}">
         <Grid.RowDefinitions>
@@ -34,7 +35,7 @@
                     <GridViewColumn Header="First Name" DisplayMemberBinding="{Binding FName}" Width="Auto"/>
                     <GridViewColumn  Header="Last Name" DisplayMemberBinding="{Binding LName}" Width="Auto"/>
                     <GridViewColumn  Header="Full Name" DisplayMemberBinding="{Binding FullName}" Width="Auto"/>
-
+                    <GridViewColumn  Header="Date Added" DisplayMemberBinding="{Binding DateAdded, Converter={StaticResource MyConverter}}" Width="Auto"/>
                 </GridView>
             </ListView.View>
         </ListView>
