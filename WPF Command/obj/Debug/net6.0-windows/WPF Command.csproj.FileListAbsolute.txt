@@ -1,0 +1,21 @@
+D:\3rd Rotation\POCs\WPF\WPF Command\bin\Debug\net6.0-windows\WPF Command.exe
+D:\3rd Rotation\POCs\WPF\WPF Command\bin\Debug\net6.0-windows\WPF Command.deps.json
+D:\3rd Rotation\POCs\WPF\WPF Command\bin\Debug\net6.0-windows\WPF Command.runtimeconfig.json
+D:\3rd Rotation\POCs\WPF\WPF Command\bin\Debug\net6.0-windows\WPF Command.dll
+D:\3rd Rotation\POCs\WPF\WPF Command\bin\Debug\net6.0-windows\WPF Command.pdb
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\App.g.cs
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\WPF Command_MarkupCompile.cache
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\WPF Command_MarkupCompile.lref
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\MainWindow.baml
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\WPF Command.g.resources
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\WPF Command.GeneratedMSBuildEditorConfig.editorconfig
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\WPF Command.AssemblyInfoInputs.cache
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\WPF Command.AssemblyInfo.cs
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\WPF Command.csproj.CoreCompileInputs.cache
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\WPF Command.dll
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\refint\WPF Command.dll
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\WPF Command.pdb
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\WPF Command.genruntimeconfig.cache
+D:\3rd Rotation\POCs\WPF\WPF Command\obj\Debug\net6.0-windows\ref\WPF Command.dll
